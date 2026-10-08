@@ -67,7 +67,7 @@ The network therefore supports the involvement of SMAD-related proteins in the s
 | **Item** | **Information** |
 |---|---|
 | **Protein pair examined** | LRG1 – ACVRL1-associated receptor complex |
-| **IntAct record** | **EBI-16065512** |
+| **IntAct record** | EBI-16065512 |
 | **Interaction type** | Association |
 | **Experimental detection method** | Anti-bait co-immunoprecipitation (anti-bait coIP) |
 | **Organism** | *Homo sapiens* |
@@ -78,9 +78,10 @@ The network therefore supports the involvement of SMAD-related proteins in the s
 | **Publication reference** | PubMed: 23868260; DOI: 10.1038/nature12345 |
 | **Evidence conclusion** | Supports an association involving an ACVRL1-containing receptor complex |
 
+IntAct provided experimental evidence for an association involving LRG1 and an ACVRL1-containing receptor complex. The associated publication was Wang et al. (2013), “LRG1 promotes angiogenesis by modulating endothelial TGF-β signalling.”
+
 ## Final model and 150–250 word interpretation
 <img width="508" height="478" alt="image" src="https://github.com/user-attachments/assets/cb324f9d-4188-4c4f-ac10-7fa78595cb59" />
-
 
 This model proposes that atrial cardiomyocytes may communicate with endothelial cells through BMP10–ACVRL1 signaling. BMP10 is the proposed extracellular signaling molecule produced or secreted by the atrial cardiomyocyte. OmniPath supports a relationship between BMP10 and the receptor ACVRL1, while endothelial cells provide a biologically plausible receiving-cell context for ACVRL1 signaling. 
 
@@ -92,39 +93,39 @@ Therefore, the overall model combines database-supported observations with biolo
 
 ### 1. What sender cell did you choose, and in what tissue or biological context does it act?
 
-I chose **atrial cardiomyocytes** as the sender cells. They are specialized heart muscle cells located in the atria and can participate in signaling with other cells in the cardiovascular system.
+I chose atrial cardiomyocytes as the sender cells. They are specialized heart muscle cells located in the atria and can participate in signaling with other cells in the cardiovascular system.
 
 ### 2. What signaling molecule did you identify, and what evidence supports its production or presentation by the sender cell?
 
-The signaling molecule identified is **BMP10 (Bone morphogenetic protein 10)**. The Human Protein Atlas provides expression information supporting BMP10 in cardiac/atrial cell contexts. BMP10 was selected because it is a signaling protein suitable for extracellular cell-to-cell communication.
+The signaling molecule identified is BMP10 (Bone morphogenetic protein 10). The Human Protein Atlas provides expression information supporting BMP10 in cardiac/atrial cell contexts. BMP10 was selected because it is a signaling protein suitable for extracellular cell-to-cell communication.
 
 ### 3. What receptor receives the signal, and which receiver cell did you select?
 
-The proposed receptor is **ACVRL1 (ALK1)**, and the selected receiver is an **endothelial cell**. ACVRL1 is associated with endothelial signaling and is supported as a receptor for BMP10 by the OmniPath analysis.
+The proposed receptor is ACVRL1 (ALK1), and the selected receiver is an endothelial cell. ACVRL1 is associated with endothelial signaling and is supported as a receptor for BMP10 by the OmniPath analysis.
 
 ### 4. What type of cell-to-cell signaling is represented?
 
-The proposed signaling is **paracrine signaling** because the signal is proposed to be released from one cell and act on a different receiving cell.
+The proposed signaling is paracrine signaling because the signal is proposed to be released from one cell and act on a different receiving cell.
 
 ### 5. Which proteins in your STRING network appear most relevant to the receptor-associated response?
 
-The most relevant proteins selected for the model are **SMAD1, SMAD5, SMAD9, and SMAD4**. These proteins are associated with SMAD signaling in the ACVRL1-centered STRING network and are relevant to downstream BMP-related signaling.
+The most relevant proteins selected for the model are SMAD1, SMAD5, SMAD9, and SMAD4. These proteins are associated with SMAD signaling in the ACVRL1-centered STRING network and are relevant to downstream BMP-related signaling.
 
 ### 6. What enriched pathway or biological process is consistent with your proposed mechanism?
 
-The relevant enriched processes include the **SMAD signaling pathway**, **positive regulation of SMAD protein signal transduction**, and **TGF-beta receptor superfamily signaling**. The Reactome results also included **Signaling by BMP**.
+The relevant enriched processes include the SMAD signaling pathway, positive regulation of SMAD protein signal transduction, and TGF-beta receptor superfamily signaling. The Reactome results also included Signaling by BMP.
 
 ### 7. What did IntAct show for the molecular interaction you examined? What type of evidence was reported?
 
-IntAct showed a positive **association** involving an ACVRL1-containing receptor complex and LRG1. The evidence was obtained using **anti-bait co-immunoprecipitation** in vitro. Because the interaction is classified as an association, it should not be described as proof of direct binding between LRG1 and ACVRL1.
+IntAct showed a positive association involving an ACVRL1-containing receptor complex and LRG1. The evidence was obtained using anti-bait co-immunoprecipitation in vitro. Because the interaction is classified as an association, it should not be described as proof of direct binding between LRG1 and ACVRL1.
 
 ### 8. Which parts of your final model are strongly supported, and which parts remain an inference?
 
-The BMP10–ACVRL1 relationship is supported by OmniPath, while the involvement of SMAD-related proteins is supported by the STRING network and pathway enrichment. The IntAct record provides additional receptor-complex evidence. However, the complete claim that **atrial cardiomyocytes release BMP10 specifically to signal to endothelial cells through ACVRL1** remains a proposed model rather than experimentally proven cell-to-cell communication.
+The BMP10–ACVRL1 relationship is supported by OmniPath, while the involvement of SMAD-related proteins is supported by the STRING network and pathway enrichment. The IntAct record provides additional receptor-complex evidence. However, the complete claim that atrial cardiomyocytes release BMP10 specifically to signal to endothelial cells through ACVRL1 remains a proposed model rather than experimentally proven cell-to-cell communication.
 
 ### 9. What cellular response is expected in the receiver cell, and why?
 
-The expected response is an **endothelial cellular response involving changes in signaling and gene regulation**. This is based on the involvement of ACVRL1 and downstream SMAD signaling proteins in the STRING network. The exact response in the specific atrial-cardiomyocyte/endothelial-cell context would require experimental confirmation.
+The expected response is an endothelial cellular response involving changes in signaling and gene regulation. This is based on the involvement of ACVRL1 and downstream SMAD signaling proteins in the STRING network. The exact response in the specific atrial-cardiomyocyte/endothelial-cell context would require experimental confirmation.
 
 ## References and database links
 
