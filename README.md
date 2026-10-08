@@ -127,10 +127,14 @@ The BMP10–ACVRL1 relationship is supported by OmniPath, while the involvement 
 The expected response is an **endothelial cellular response involving changes in signaling and gene regulation**. This is based on the involvement of ACVRL1 and downstream SMAD signaling proteins in the STRING network. The exact response in the specific atrial-cardiomyocyte/endothelial-cell context would require experimental confirmation.
 
 ## References and database links
-HPA : https://www.proteinatlas.org/ENSG00000105329-TGFB1
 
-OmniPath : https://explore.omnipathdb.org/search?q=TGFB1%2C+&tab=intercell&species=9606&parents=ligand https://explore.omnipathdb.org/search?q=TGFBR2a2C&tab=intercell&species=9606&parents=receptor
+Human Protein Atlas: https://www.proteinatlas.org/ENSG00000163217-BMP10
 
-STRING : https://string-db.org/cgi/network?taskId=bl72mlM0wFTY&sessionId=biwhV190xIlA
+https://www.proteinatlas.org/ENSG00000139567-ACVRL1
 
-IntAct : https://www.ebi.ac.uk/intact/details/interaction/EBI-3504782
+OmniPath : https://explore.omnipathdb.org/search?q=BMP10&tab=interactions&species=9606
+
+
+STRING : https://string-db.org/cgi/network?taskId=bKJSJSCK811A&sessionId=bv8aYAqrvuQG
+
+IntAct : https://www.ebi.ac.uk/intact/details/interaction/EBI-16065512
